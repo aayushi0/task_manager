@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "http://localhost:8800",
+        target: "https://task-manager-backend-opsr.onrender.com",
         changeOrigin: true,
       },
     },
